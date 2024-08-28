@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECHCHASE 2024</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="container">
+        <h1>TECHCHASE 2024</h1>
+
+        <div class="form-group">
+            <label for="photo">Submit your photo:</label>
+            <input type="file" id="photo" accept="image/*" capture="camera">
+        </div>
+
+        <div class="form-group">
+            <label for="events">Select an event:</label>
+            <select id="events">
+                <option value="event1">Evolving Odyssey</option>
+                <option value="event2">The One Who Remains</option>
+                <option value="event3">Kaal Chakra:The last war</option>
+            </select>
+        </div>
+
+        <div class="form-actions">
+            <button type="submit" id="submit-btn">Submit</button>
+            <button id="alpha-btn">View Entries</button>
+        </div>
+    </div>
+
+    <script src="particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
